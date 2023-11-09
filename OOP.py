@@ -76,9 +76,7 @@ class User: # we define a class called User
         self.age = age                       #we initialize the object's attributes using the values passed as arguments.
         self.location = location
 
-    def set_location(self, new_location):     
-        self.location = new_location            ##We define a method named set_location within the User class.
-
+              
 # Creating a new instance of the User class
 user1 = User("DEV. BREE", 16, "Namugongo")
 
@@ -92,7 +90,6 @@ print("User Age:", user_age)
 
 #function to print the user's location
 user2_location=user1.location
-
 
 
 # Printing the updated user's location
